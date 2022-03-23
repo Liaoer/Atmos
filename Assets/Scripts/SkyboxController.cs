@@ -11,7 +11,6 @@ public class SkyboxController : MonoBehaviour
     void LateUpdate()
     {
         // Directions are defined to point towards the object
-
         // Sun
         Shader.SetGlobalVector("_SunDir", -_Sun.transform.forward);
 
